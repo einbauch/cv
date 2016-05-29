@@ -11,7 +11,7 @@
 
 .menu_link {
     display: inline-block;
-    background-color: darkblue;
+    background-color: dimgrey;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -19,19 +19,19 @@
 }
 
 .menu_mouseover:hover {
-    background-color: lightgoldenrodyellow;
+    background-color: papayawhip;
     color: black;
 }
 
 .title {
     font-size: 2.8em;
-    background: darkblue;
+    background: dimgrey;
     color: white;
 }
 
 .subtitle {
     font-size: 2.2em;
-    color: darkblue;
+    color: dimgrey;
 }
 
 .section_title {
