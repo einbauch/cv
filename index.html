@@ -3,57 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Резюме</title>
-    <link href='https://fonts.googleapis.com/css?family=Cuprum&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
-    <style>
-        ul#menu {
-            padding: 0;
-        }
-
-        ul#menu li {
-            display: inline;
-        }
-
-        ul#menu li a {
-            background-color: black;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 4px 4px 0 0;
-        }
-
-        ul#menu li a:hover {
-            background-color: orange;
-        }
-    </style>
+    <link rel="stylesheet" href="css/mystyle.css">
 </head>
 <body>
 <div class="container">
-    <ul id="menu">
-        <li><a href="#general">Общая информация</a></li>
-        <li><a href="#experience">Опыт работы</a></li>
-        <li><a href="#education">Высшее образование</a></li>
-        <li><a href="#certificates">Курсы и сертификаты</a></li>
-        <li><a href="#languages">Знание языков</a></li>
+    <ul class="menu">
+        <li class="menu_item"><a class="menu_link menu_mouseover" href="#general">Общая информация</a></li>
+        <li class="menu_item"><a class="menu_link menu_mouseover" href="#experience">Опыт работы</a></li>
+        <li class="menu_item"><a class="menu_link menu_mouseover" href="#education">Высшее образование</a></li>
+        <li class="menu_item"><a class="menu_link menu_mouseover" href="#certificates">Курсы и сертификаты</a></li>
+        <li class="menu_item"><a class="menu_link menu_mouseover" href="#languages">Знание языков</a></li>
     </ul>
 </div>
 <div class="container">
-    <h2><b>Резюме</b></h2>
-    <h3>Кузьмин Александр Михайлович</h3>
+    <h1 class="title">Резюме</h1>
+    <h2 class="subtitle">Кузьмин Александр Михайлович</h2>
     <img src="img/16bc5a5.jpg" alt="photo" width="150">
-    <h4>Архитектор по информационной безопасности / пресейл-инженер по SIEM решениям</h4>
+    <h2 class="subtitle">Архитектор по информационной безопасности</h2>
+    <h2 class="subtitle">Пресейл-инженер по SIEM решениям</h2>
 </div>
 <br>
 <div class="container">
     <div class="one-half column">
-        <h5 id="general">Контактные данные:</h5>
+        <h3 id="general" class="section_title">Контактные данные</h3>
         <p><b>Телефон:</b> +7 905 539 11 05</p>
         <p><b>E-mail:</b> <a href="mailto:alex.kuzmin@bk.ru">alex.kuzmin@bk.ru</a></p>
         <p><b>город Москва</b></p>
     </div>
     <div class="one-half column">
-        <h5>Общая информация:</h5>
+        <h3 class="section_title">Общая информация</h3>
         <p><b>Занятость:</b> полная занятость</p>
         <p><b>График работы:</b> полный рвбочий день</p>
         <p><b>Переезд:</b> Не готов к переезду</p>
@@ -62,7 +43,7 @@
 </div>
 <br>
 <div class="container">
-    <h5 id="experience">Опыт работы</h5>
+    <h3 id="experience" class="section_title">Опыт работы</h3>
 </div>
 <div class="container">
     <p><b>ЗАО НИП "Информзащита"</b>, Москва - <i>с марта 2014 года по настоящее время</i></p>
@@ -146,7 +127,7 @@
 </div>
 <br>
 <div class="container">
-    <h5 id="education">Высшее образование</h5>
+    <h3 id="education" class="section_title">Высшее образование</h3>
 </div>
 <div class="container">
     <p><b>Новый гуманитарный университет Натальи Нестеровой</b></p>
@@ -156,7 +137,7 @@
 </div>
 <br>
 <div class="container">
-    <h5 id="certificates">Повышение квалификации: курсы и сертификаты</h5>
+    <h3 id="certificates" class="section_title">Повышение квалификации: курсы и сертификаты</h3>
 </div>
 <div class="container">
 <ul>
@@ -179,7 +160,7 @@
 </div>
 <br>
 <div class="container">
-    <h5 id="languages">Знание языков</h5>
+    <h3 id="languages" class="section_title">Знание языков</h3>
 </div>
 <div class="container">
     <p><b>Русский</b> - родной язык</p>
