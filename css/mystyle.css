@@ -18,7 +18,7 @@
     border-radius: 4px 4px 0 0;
 }
 
-.menu_mouseover:hover {
+.menu_link:hover {
     background-color: papayawhip;
     color: black;
 }
@@ -53,4 +53,9 @@
     background-color: dimgrey;
     font-size: 12px;
     padding: 1em;
+}
+
+.go-top:hover {
+    background-color: papayawhip;
+    color: black
 }
