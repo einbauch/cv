@@ -43,3 +43,14 @@
 .skill-section {
     font-size: 1.4em;
 }
+
+.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: dimgrey;
+    font-size: 12px;
+    padding: 1em;
+}
