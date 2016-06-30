@@ -1,3 +1,7 @@
+.navigation {
+    margin-top: 10px;
+}
+
 .menu {
     padding: 0;
     overflow: hidden;
@@ -6,7 +10,7 @@
 }
 
 .menu-item {
-    display: inline;
+    display: inline-block; 
 }
 
 .menu-link {
@@ -15,7 +19,7 @@
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px;
 }
 
 .menu-link:hover {
@@ -24,6 +28,7 @@
 }
 
 .title {
+    padding-left: 10px;
     font-size: 2.8em;
     background: dimgrey;
     color: white;
@@ -35,6 +40,7 @@
 }
 
 .section-title {
+    padding-left: 10px;
     font-size: 1.8em;
     color: white;
     background: dimgrey;
